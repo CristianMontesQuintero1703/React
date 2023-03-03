@@ -1,0 +1,107 @@
+.tweet-generator {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px ;
+  background-color: #5C64CC;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%235C64CC' width='11' height='11'/%3E%3Crect fill='%235b66cd' x='10' width='11' height='11'/%3E%3Crect fill='%235a68cf' y='10' width='11' height='11'/%3E%3Crect fill='%23586ad0' x='20' width='11' height='11'/%3E%3Crect fill='%23576cd1' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23566ed2' y='20' width='11' height='11'/%3E%3Crect fill='%235570d3' x='30' width='11' height='11'/%3E%3Crect fill='%235472d4' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%235374d5' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%235276d6' y='30' width='11' height='11'/%3E%3Crect fill='%235178d7' x='40' width='11' height='11'/%3E%3Crect fill='%235079d8' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%234f7bd9' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%234e7dda' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%234d7fdb' y='40' width='11' height='11'/%3E%3Crect fill='%234d81dc' x='50' width='11' height='11'/%3E%3Crect fill='%234c83dd' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%234b84de' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%234b86de' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%234b88df' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%234a8ae0' y='50' width='11' height='11'/%3E%3Crect fill='%234a8be1' x='60' width='11' height='11'/%3E%3Crect fill='%234a8de1' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%234a8fe2' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%234a91e2' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%234a92e3' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%234a94e4' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%234b96e4' x='70' width='11' height='11'/%3E%3Crect fill='%234b97e5' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%234c99e5' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%234c9be6' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%234d9ce6' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%234e9ee7' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%234fa0e7' x='80' width='11' height='11'/%3E%3Crect fill='%2350a1e7' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%2351a3e8' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2352a5e8' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2353a6e9' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2355a8e9' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%2356aae9' x='90' width='11' height='11'/%3E%3Crect fill='%2358abea' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2359adea' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%235baeea' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%235db0ea' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%235eb1eb' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%2360b3eb' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%2362b5eb' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%2364b6eb' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%2366b8ec' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%2368b9ec' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%236abbec' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%236cbcec' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%236ebeed' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%2370bfed' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%2373c1ed' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2375c2ed' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2377c4ed' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%2379c5ee' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%237cc7ee' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%237EC8EE' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+}
+.tweet-text {
+  width: 100%;
+  height: 120px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.view{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.view {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.view:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.delete{
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.delete {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.generate-tweet-button {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.generate-tweet-button:hover {
+  background-color: #0d8ecf;
+}
+
+.text{
+ padding: 5px;
+ background-color: antiquewhite;
+}
+
+.publicar{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.publicar:hover {
+    background: #ddd;
+}
